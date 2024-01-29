@@ -1,5 +1,5 @@
 ﻿TaskManager
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 I:\Programi na disku\Microsoft Visual Studio\Projects\MyProjects\TaskManager\App.xaml
 3210543115
 
-71543723148
+5-688098911
 198-294894759
 MainWindow.xaml;Resources\MainResources.xaml;UIElements\Lines.xaml;
 
-True
+False
 

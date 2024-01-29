@@ -7,7 +7,18 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="UIElements\Lines.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\MainResources.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIElements\Lines.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
