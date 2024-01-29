@@ -4,9 +4,14 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TaskManager"
+        xmlns:MainLine="clr-namespace:TaskManager.UIElements"
+        Background="#ede9e8"
         mc:Ignorable="d"
         Title="MainWindow" Height="1080" Width="1920">
-    <Grid>
+    <Window.Resources>
+        <ResourceDictionary Source="Resources/MainResources.xaml"/>
+    </Window.Resources>
+    <Grid Width="1800" Margin="0,0,0,0" Background="{StaticResource GridBackgroundColor}">
         <Grid.RowDefinitions>
             <RowDefinition Height="1.25*"/>
             <RowDefinition Height="1*"/>
@@ -14,6 +19,7 @@
             <RowDefinition Height="10*"/>
         </Grid.RowDefinitions>
         <Grid Grid.Row="0" >
+            <ContentControl Content="{StaticResource MainDevideLine}" />
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*"/>
                 <ColumnDefinition Width="0.5*"/>
@@ -22,6 +28,7 @@
             </Grid.ColumnDefinitions>
         </Grid>
         <Grid Grid.Row="1" >
+            <ContentControl Content="{StaticResource MainDevideLine}" />
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*"/>
                 <ColumnDefinition Width="0.5*"/>
@@ -30,6 +37,7 @@
             </Grid.ColumnDefinitions>
         </Grid>
         <Grid Grid.Row="2">
+            <ContentControl Content="{StaticResource MainDevideLine}" />
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="8*"/>
                 <ColumnDefinition Width="2*"/>
@@ -40,6 +48,46 @@
                 <ColumnDefinition Width="0.5*"/>
                 <ColumnDefinition Width="0.5*"/>
             </Grid.ColumnDefinitions>
+        </Grid>
+        <Grid Grid.Row="3">
+            <ScrollViewer HorizontalScrollBarVisibility="Auto">
+                <Grid Name="TasksScroll">
+                    <Grid.RowDefinitions>
+                        <RowDefinition MaxHeight="30px" MinHeight="70px"/>
+                        <RowDefinition MaxHeight="30px" MinHeight="70px"/>
+                        <RowDefinition MaxHeight="30px" MinHeight="70px"/>
+                        <RowDefinition MaxHeight="30px" MinHeight="70px"/>
+                        <RowDefinition MaxHeight="30px" MinHeight="70px"/>
+                        <RowDefinition MaxHeight="30px" MinHeight="70px"/>
+                        <RowDefinition MaxHeight="30px" MinHeight="70px"/>
+                        <RowDefinition MaxHeight="30px" MinHeight="70px"/>
+                        <RowDefinition MaxHeight="30px" MinHeight="70px"/>
+                        <RowDefinition MaxHeight="30px" MinHeight="70px"/>
+                        <RowDefinition MaxHeight="30px" MinHeight="70px"/>
+                        <RowDefinition MaxHeight="30px" MinHeight="70px"/>
+                        <RowDefinition MaxHeight="30px" MinHeight="70px"/>
+                        <RowDefinition MaxHeight="30px" MinHeight="70px"/>
+                        <RowDefinition MaxHeight="30px" MinHeight="70px"/>
+                        <RowDefinition MaxHeight="30px" MinHeight="70px"/>
+                        <RowDefinition MaxHeight="30px" MinHeight="70px"/>
+                        <RowDefinition MaxHeight="30px" MinHeight="70px"/>
+                        <RowDefinition MaxHeight="30px" MinHeight="70px"/>
+                        <RowDefinition MaxHeight="30px" MinHeight="70px"/>
+                        <RowDefinition MaxHeight="30px" MinHeight="70px"/>
+                        <RowDefinition MaxHeight="30px" MinHeight="70px"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="8*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="0.5*"/>
+                        <ColumnDefinition Width="0.5*"/>
+                    </Grid.ColumnDefinitions>
+                </Grid>
+            </ScrollViewer>
         </Grid>
     </Grid>
 </Window>
