@@ -4,6 +4,7 @@
              xmlns:local="clr-namespace:TaskManager"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <!-- FONTS -->
+        <FontFamily x:Key="FontAwesomeFree">Resources\Fonts\Font Awesome 6 Free-Solid-900.otf#Font Awesome 6 Free Solid</FontFamily>
     </Application.Resources>
 </Application>

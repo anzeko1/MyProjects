@@ -61,7 +61,7 @@ namespace TaskManager.UIElements {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TaskManager;V1.0.0.0;component/uielements/lines.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TaskManager;component/uielements/lines.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\UIElements\Lines.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

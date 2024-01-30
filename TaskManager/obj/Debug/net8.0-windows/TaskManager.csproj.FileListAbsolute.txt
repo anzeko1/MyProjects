@@ -22,3 +22,4 @@ I:\Programi na disku\Microsoft Visual Studio\Projects\MyProjects\TaskManager\obj
 I:\Programi na disku\Microsoft Visual Studio\Projects\MyProjects\TaskManager\obj\Debug\net8.0-windows\Resources\MainResources.baml
 I:\Programi na disku\Microsoft Visual Studio\Projects\MyProjects\TaskManager\obj\Debug\net8.0-windows\UIElements\Lines.g.cs
 I:\Programi na disku\Microsoft Visual Studio\Projects\MyProjects\TaskManager\obj\Debug\net8.0-windows\UIElements\Lines.baml
+I:\Programi na disku\Microsoft Visual Studio\Projects\MyProjects\TaskManager\obj\Debug\net8.0-windows\App.baml
