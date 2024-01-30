@@ -10,8 +10,12 @@
 
   <ItemGroup>
     <Folder Include="Model\" />
+    <Folder Include="Resources\Fonts\" />
     <Folder Include="ViewModel\" />
     <Folder Include="Views\" />
+	  
+	  <!-- FONTS -->
+	<Resource Include="Resources\Fonts\Font Awesome 6 Free-Solid-900.otf" />
   </ItemGroup>
 
 </Project>

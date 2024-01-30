@@ -89,5 +89,9 @@
                 </Grid>
             </ScrollViewer>
         </Grid>
+        <StackPanel>
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="&#xf001;" FontFamily="{StaticResource FontAwesomeFree}" FontSize="40px"></TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="&#xf072;" FontFamily="{StaticResource FontAwesomeFree}" FontSize="40px"></TextBlock>
+        </StackPanel>
     </Grid>
 </Window>
