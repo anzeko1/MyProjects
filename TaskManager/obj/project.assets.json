@@ -8,23 +8,23 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Kozole\\.nuget\\packages\\": {},
-    "I:\\Programi na disku\\Microsoft Visual Studio\\Packages\\NuGetPackages": {}
+    "C:\\Users\\anze\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\Programi na disku\\Microsoft Visual Studio\\Projects\\MyProjects\\TaskManager\\TaskManager.csproj",
+      "projectUniqueName": "C:\\Anze\\DevOps\\Projects\\TaskManager\\TaskManager.csproj",
       "projectName": "TaskManager",
-      "projectPath": "I:\\Programi na disku\\Microsoft Visual Studio\\Projects\\MyProjects\\TaskManager\\TaskManager.csproj",
-      "packagesPath": "C:\\Users\\Kozole\\.nuget\\packages\\",
-      "outputPath": "I:\\Programi na disku\\Microsoft Visual Studio\\Projects\\MyProjects\\TaskManager\\obj\\",
+      "projectPath": "C:\\Anze\\DevOps\\Projects\\TaskManager\\TaskManager.csproj",
+      "packagesPath": "C:\\Users\\anze\\.nuget\\packages\\",
+      "outputPath": "C:\\Anze\\DevOps\\Projects\\TaskManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "I:\\Programi na disku\\Microsoft Visual Studio\\Packages\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kozole\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\anze\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

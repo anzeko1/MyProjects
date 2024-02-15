@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4DMwOjW7/BganbQvwZj6VTEWQVxOo8KWHpj9brZQXVzEKCpaaQE7pxlPvmpbUSAFlw3R219KRpNtksVMPsNtQA==",
+  "dgSpecHash": "MeVAgZIvgi7APaB2agcjILNKVDoeNANIEhw5CA4f6QjINInMKb8mwyiN94eI8E2EonEFRITTRokar2cwLClJKg==",
   "success": true,
-  "projectFilePath": "I:\\Programi na disku\\Microsoft Visual Studio\\Projects\\MyProjects\\TaskManager\\TaskManager.csproj",
+  "projectFilePath": "C:\\Anze\\DevOps\\Projects\\TaskManager\\TaskManager.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
