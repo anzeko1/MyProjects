@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-I:\Programi na disku\Microsoft Visual Studio\Projects\MyProjects\TaskManager\obj\Debug\net8.0-windows\
+C:\Anze\DevOps\Projects\TaskManager\obj\Debug\net8.0-windows\
 TaskManager
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-I:\Programi na disku\Microsoft Visual Studio\Projects\MyProjects\TaskManager\App.xaml
-3210543115
+C:\Anze\DevOps\Projects\TaskManager\App.xaml
+4-80019041
 
-71543723148
+81550674675
 198-294894759
-MainWindow.xaml;Resources\MainResources.xaml;UIElements\Lines.xaml;
+MainWindow.xaml;Resources\MainResources.xaml;UIElements\Lines.xaml;UIElements\SearchBox.xaml;
 
 True
 
